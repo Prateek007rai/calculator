@@ -39,7 +39,8 @@ function App() {
       <input type="button" value="/" className="button" onClick={clickHandler}/>
       <input type="button" value="C" className="button" onClick={clearDisplay}/>
       <input type="button" value="%" className="button" onClick={clickHandler}/>
-      <input type="button" value="=" className="button" onClick={calculate}/>
+      <input type="button" value="=" className="button btn" onClick={calculate}/>
+
     </div>
   );
 }
